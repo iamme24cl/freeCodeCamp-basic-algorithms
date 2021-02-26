@@ -1,3 +1,10 @@
+/*
+Find the Longest Word in a StringPassed
+Return the length of the longest word in the provided sentence.
+
+Your response should be a number.
+*/
+
 function findLongestWordLength(str) {
   let words = str.split(" ");
   let maxLength = 0;
